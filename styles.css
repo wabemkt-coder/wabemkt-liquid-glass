@@ -100,7 +100,13 @@ body{
 .main-nav a:hover{color:var(--text); background:rgba(255,255,255,.06)}
 
 /* ---------- Hero ---------- */
-.hero{ padding:120px 0 80px; position:relative; overflow:hidden }
+.hero{
+  padding:120px 0 80px;
+  position:relative;
+  overflow:hidden;
+  background: linear-gradient(135deg, #302a75 0%, #3a33a7 55%, #262254 100%);
+}
+
 .hero:before{
   content:""; position:absolute; inset:-20% -10% auto -10%; height:60%;
   background:
