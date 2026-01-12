@@ -104,7 +104,8 @@ body{
   padding:120px 0 80px;
   position:relative;
   overflow:hidden;
-  background: linear-gradient(135deg, #302a75 0%, #3a33a7 55%, #262254 100%);
+  background: red !important;
+
 }
 
 .hero:before{
