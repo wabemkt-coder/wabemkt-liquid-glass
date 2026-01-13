@@ -75,21 +75,27 @@ body{
 }
 
 /* ---------- Header ---------- */
-/* Header igual ao footer (mais contraste no menu) */
+/* ---------- Header (igual footer, legível) ---------- */
 .site-header{
   position: sticky;
   top: 0;
   z-index: 50;
   background: linear-gradient(180deg, var(--indigo-700), var(--indigo-800));
   border-bottom: 1px solid rgba(255,255,255,.14);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
-.brand{ color:#fff; }
-.main-nav a{ color:#e9e9ef; }
-.main-nav a:hover{ background: rgba(255,255,255,.14); color:#fff; }
+/* anula o "glass" no header */
+.site-header.glass{
+  background: linear-gradient(180deg, var(--indigo-700), var(--indigo-800));
+  border: 1px solid rgba(255,255,255,.14);
+}
 
+.brand{ color:#fff; text-decoration:none; }
+.brand .brand-text{ color:#fff; }
+.main-nav a{ color: rgba(255,255,255,.88); }
+.main-nav a:hover{ background: rgba(255,255,255,.14); color:#fff; }
 
 .header-inner{
   display:flex; align-items:center; justify-content:space-between;
