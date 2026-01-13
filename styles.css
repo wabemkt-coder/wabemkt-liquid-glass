@@ -105,6 +105,12 @@ body{
   padding:120px 0 80px;
   position:relative;
   overflow:hidden;
+  background: linear-gradient(
+    135deg,
+    #f6f7f9 0%,
+    rgba(58,51,167,.08) 50%,
+    rgba(241,18,81,.06) 100%
+  );
 }
 
 
