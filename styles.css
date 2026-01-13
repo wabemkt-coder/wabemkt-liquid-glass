@@ -271,7 +271,7 @@ img{max-width:100%; height:auto; border-radius:12px}
   padding: 42px;
 
   /* desce o quadro */
-  margin-top: 200px;
+  margin-top: clamp(72px, 10vh, 140px);
 }
 /* HERO novo (usa a imagem no background da intro) */
 .intro{ position:relative; overflow:hidden; }
