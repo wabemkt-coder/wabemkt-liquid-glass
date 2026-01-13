@@ -177,8 +177,8 @@ body{
   border:1px solid var(--stroke);
   box-shadow: var(--shadow);
 }
-.hero-card h1{ color: var(--indigo-800); }
-.hero-card p{ color: var(--muted); }
+.hero-card h1{ color: #1f1b4a; }
+.hero-card p{ color: rgba(31,27,74,0.7); }
 
 /* ---------- Typography ---------- */
 h1,h2,h3{margin:0 0 12px}
@@ -275,7 +275,9 @@ img{max-width:100%; height:auto; border-radius:12px}
 }
 /* HERO novo (usa a imagem no background da intro) */
 .intro{ position:relative; overflow:hidden; }
-
+.hero-card .intro-sub{
+  color: rgba(31,27,74,0.6);
+}
 .intro-bg{
   position:absolute;
   inset:0;
