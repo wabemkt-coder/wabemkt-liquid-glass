@@ -266,13 +266,20 @@ img{max-width:100%; height:auto; border-radius:12px}
 }
 
 .hero-card{
-  background: linear-gradient(180deg, var(--glass), var(--glass-strong));
-  backdrop-filter: blur(14px) saturate(120%);
-  -webkit-backdrop-filter: blur(14px) saturate(120%);
-  border:1px solid var(--stroke);
-  box-shadow: var(--shadow);
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.55),
+    rgba(255,255,255,0.35)
+  );
+  backdrop-filter: blur(18px) saturate(130%);
+  -webkit-backdrop-filter: blur(18px) saturate(130%);
+  border:1px solid rgba(255,255,255,0.35);
+  box-shadow: 0 20px 40px rgba(0,0,0,.12);
   border-radius: var(--radius-lg);
   padding: 42px;
+
+  /* desce o quadro */
+  margin-top: 120px;
 }
 /* HERO novo (usa a imagem no background da intro) */
 .intro{ position:relative; overflow:hidden; }
