@@ -105,9 +105,8 @@ body{
   padding:120px 0 80px;
   position:relative;
   overflow:hidden;
-
-
 }
+
 
 .hero:before{
   content:""; position:absolute; inset:-20% -10% auto -10%; height:60%;
