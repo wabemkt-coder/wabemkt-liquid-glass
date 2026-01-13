@@ -117,9 +117,10 @@ body{
    padding: 220px 0 80px;
   position: relative;
   overflow: hidden;
-  padding: 120px 0 80px;
-  min-height: 520px;   /* controla até onde o fundo aparece */
+  padding: 120px 0 200px;
+  min-height: 700px;
 }
+
 
 /* delimitador visual no fim do hero */
 .intro::after{
@@ -135,6 +136,7 @@ body{
     rgba(255,255,255,1) 100%
   );
   z-index: 3;
+  pointer-events: none;
 }
 
 
