@@ -114,10 +114,9 @@ body{
 
 /* HERO (intro) com overlay controlável */
 .intro{
-   padding: 220px 0 80px;
   position: relative;
   overflow: hidden;
-  padding: 120px 0 200px;
+  padding: 220px 0 200px; /* topo, laterais, baixo */
   min-height: 700px;
 }
 
