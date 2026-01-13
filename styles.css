@@ -116,7 +116,7 @@ body{
 .intro{
   position: relative;
   overflow: hidden;
-  padding: 220px 0 200px; /* topo, laterais, baixo */
+  padding: 140px 0 200px;   /* menos espaço no topo */
   min-height: 700px;
 }
 
