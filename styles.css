@@ -143,7 +143,7 @@ body{
 .intro-bg{
   position: absolute;
   inset: 0;
-  background-image: url("brain.jpg");
+  background-image: url("img/brain.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -279,16 +279,7 @@ img{max-width:100%; height:auto; border-radius:12px}
 .hero-card .intro-sub{
   color: rgba(31,27,74,0.6);
 }
-.intro-bg{
-  position:absolute;
-  inset:0;
-  background-image:
-    url("https://lh3.googleusercontent.com/sitesv/AAzXCkcdntDZlopM8tsDqTUFGt0i6jXmvmLV7J7rAOI-J075UL6yaiqjmJjxQA5lvFR2rOnjXnbKnw0FfJWtKWhHfKpyvdMilge0J7m_SwpkR5yFOwTM4Ntn9hvIGl5PHk6LT3t0KcHeVoh7rhF0HMmYtfzPOEpQmqFNf4mGuuBJ-SwgcdEzeLbtSEqPa0g=w16383");
-   background-size: cover;
-  background-position: center;
-  opacity: 1;
-  z-index: 0;
-}
+
 
 .intro-content{ position:relative; z-index: 1; }
 
