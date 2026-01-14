@@ -65,14 +65,6 @@ body{
 .card{border-radius:var(--radius); padding:32px; background:transparent}
 .card.wide{padding:40px}
 
-/* ---------- Glass effect ---------- */
-.glass{
-  background: linear-gradient(180deg, var(--glass), rgba(255,255,255,.03));
-  backdrop-filter: blur(14px) saturate(120%);
-  -webkit-backdrop-filter: blur(14px) saturate(120%);
-  border:1px solid var(--stroke);
-  box-shadow: var(--shadow);
-}
 
 /* ---------- Header ---------- */
 /* ---------- Header (igual footer, legível) ---------- */
@@ -275,12 +267,6 @@ img{max-width:100%; height:auto; border-radius:12px}
   margin-top: clamp(72px, 10vh, 140px);
 }
 /* HERO novo (usa a imagem no background da intro) */
-.intro{ position:relative; overflow:hidden; }
 .intro-card .intro-sub{
   color: rgba(31,27,74,0.6);
 }
-
-
-.intro-content{ position:relative; z-index: 1; }
-
-
