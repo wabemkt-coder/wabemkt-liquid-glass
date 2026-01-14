@@ -65,6 +65,12 @@ body{
 .card{border-radius:var(--radius); padding:32px; background:transparent}
 .card.wide{padding:40px}
 
+.brand-mark{
+  height: 22px;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
 
 /* ---------- Header ---------- */
 /* ---------- Header (igual footer, legível) ---------- */
