@@ -248,7 +248,7 @@ a:hover{opacity:.9}
 img{max-width:100%; height:auto; border-radius:12px}
 
 /* Step 1: tame the huge map */
-.hero img{
+.intro img{
   width: 100%;
   max-width: 960px;
   height: auto;
@@ -258,7 +258,7 @@ img{max-width:100%; height:auto; border-radius:12px}
   box-shadow: 0 18px 40px rgba(0,0,0,.10);
 }
 
-.hero-card{
+.intro-card{
   background: linear-gradient(
     180deg,
     rgba(255,255,255,0.55),
@@ -276,7 +276,7 @@ img{max-width:100%; height:auto; border-radius:12px}
 }
 /* HERO novo (usa a imagem no background da intro) */
 .intro{ position:relative; overflow:hidden; }
-.hero-card .intro-sub{
+.intro-card .intro-sub{
   color: rgba(31,27,74,0.6);
 }
 
