@@ -276,3 +276,15 @@ img{max-width:100%; height:auto; border-radius:12px}
 .intro-card .intro-sub{
   color: rgba(31,27,74,0.6);
 }
+.section{ padding: 80px 0; }
+
+.card{
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  border: 1px solid rgba(48,42,117,.14);
+  box-shadow: 0 18px 40px rgba(0,0,0,.10);
+}
+
+.glass-soft{
+  background: rgba(255,255,255,.88);
+}
