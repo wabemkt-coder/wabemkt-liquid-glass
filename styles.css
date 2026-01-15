@@ -336,6 +336,7 @@ img{max-width:100%; height:auto; border-radius:12px}
   background: transparent;
 }
 .guide-map{
+   flex: 0 0 45%;
   box-shadow: none;
   background: transparent;
 }
