@@ -245,7 +245,7 @@ a{color: var(--indigo-650);}
 a:hover{opacity:.9}
 img{max-width:100%; height:auto; border-radius:12px}
 
-/* Step 1: tame the huge map */
+
 .intro img{
   width: 100%;
   max-width: 960px;
@@ -313,4 +313,31 @@ img{max-width:100%; height:auto; border-radius:12px}
 #guide > *{
   position: relative;
   z-index: 1;
+}
+/* Guide layout: texto + mapa lado a lado */
+#guide{
+  position: relative;   /* necessário pro ::before */
+  overflow: hidden;     /* segura o overlay dentro da seção */
+}
+
+.guide-inner{
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr; /* texto maior, mapa menor */
+  gap: 28px;
+  align-items: center;
+}
+
+.guide-map img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.18);
+}
+
+/* Mobile */
+@media (max-width: 900px){
+  .guide-inner{
+    grid-template-columns: 1fr;
+  }
 }
