@@ -440,3 +440,122 @@ img{max-width:100%; height:auto; border-radius:12px}
     rgba(58,51,167,0.08)
   );
 }
+/* =========================
+   WHY + CONTACT (bg image)
+   ========================= */
+.section-why{
+  position: relative;
+  background-image: url("bg 1.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 90px 0;
+}
+
+/* overlay para legibilidade */
+.section-why::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(
+    180deg,
+    rgba(10,10,30,0.62),
+    rgba(10,10,30,0.42)
+  );
+  z-index: 0;
+}
+
+.section-why > .container{
+  position: relative;
+  z-index: 1;
+}
+
+/* card grande */
+.why-card{
+  border-radius: var(--radius-lg);
+  padding: 40px;
+}
+
+/* layout 2 colunas */
+.why-grid{
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 34px;
+  align-items: center;
+}
+
+/* texto esquerda */
+.why-left h2{
+  margin: 0 0 14px;
+  color: #fff;
+}
+
+.section-why .bullets{
+  margin: 0;
+  padding-left: 18px;
+  color: rgba(255,255,255,.92);
+}
+.section-why .bullets li{
+  margin: 10px 0;
+  border: 0;
+  background: transparent;
+}
+.section-why .bullets li:before{
+  display:none;
+}
+
+/* form direita */
+.contact-form{
+  background: rgba(38,34,84,.88);
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 18px;
+  padding: 22px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.22);
+  color: #f5f5f5;
+}
+
+.contact-form h3{
+  margin: 0 0 14px;
+  color: var(--rose);
+  text-align: center;
+  font-size: 22px;
+}
+
+.contact-form label{
+  display:block;
+  font-weight: 700;
+  margin: 10px 0 6px;
+  color: rgba(255,255,255,.90);
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  background: rgba(255,255,255,.96);
+  color: #111217;
+  font: inherit;
+}
+
+.contact-form textarea{
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form .btn.primary{
+  width: 100%;
+  margin-top: 12px;
+}
+
+/* responsivo */
+@media (max-width: 900px){
+  .why-grid{
+    grid-template-columns: 1fr;
+  }
+  .why-card{
+    padding: 28px;
+  }
+}
