@@ -701,10 +701,11 @@ img{max-width:100%; height:auto; border-radius:12px}
 }
 
 .section-about{
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: 40px;
+  padding-bottom: 60px;
 }
 
 .site-footer{
   margin-top: 0;
 }
+
