@@ -433,3 +433,10 @@ img{max-width:100%; height:auto; border-radius:12px}
   box-shadow: 0 28px 60px rgba(0,0,0,.18);
    backdrop-filter: blur(18px) saturate(140%);
 }
+#servicos{
+  background: linear-gradient(
+    180deg,
+    rgba(48,42,117,0.06),
+    rgba(58,51,167,0.08)
+  );
+}
