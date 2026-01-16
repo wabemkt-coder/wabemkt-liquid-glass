@@ -612,10 +612,12 @@ img{max-width:100%; height:auto; border-radius:12px}
 
 .about-card-photo img{
   width: 100%;
-  height: 100%;
+  height: 340px;
   object-fit: cover;
+  object-position: center 20%;
   display: block;
 }
+
 
 .about-card-text h3{
   margin: 0 0 6px;
@@ -632,10 +634,29 @@ img{max-width:100%; height:auto; border-radius:12px}
   margin: 0 0 12px;
   line-height: 1.5;
 }
+.about-card-text{
+  color: rgba(255,255,255,0.92);
+}
+
+.about-card-text h3{
+  color: rgba(255,255,255,0.96);
+}
+
+.about-card-text .role{
+  color: rgba(255,255,255,0.80);
+}
+
+.about-card-text p{
+  color: rgba(255,255,255,0.82);
+}
 
 @media (max-width: 900px){
   .about-card{
     grid-template-columns: 1fr;
+       .about-card-photo img{
+    height: 260px;
+  }
+
   }
 }
 
