@@ -703,4 +703,14 @@ img{max-width:100%; height:auto; border-radius:12px}
 .site-footer{
   margin-top: 0;
 }
+/* Smooth scroll + offset pro header fixo */
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px; /* ajusta se teu header for maior/menor */
+}
+
+/* garante offset mesmo em browsers que ignoram scroll-padding */
+section{
+  scroll-margin-top: 90px; /* mesmo valor de cima */
+}
 
