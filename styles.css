@@ -646,10 +646,11 @@ img{max-width:100%; height:auto; border-radius:12px}
 }
 .section-about{
   position: relative;
-  background: #0a0a18 url("globo.webp") no-repeat center right;
-  background-size: 60%;
+  background: #0a0a18 url("globo.webp") no-repeat center;
+  background-size: cover;
   padding: 100px 0;
 }
+
 .site-footer{
   background: #2b275a;
   color: rgba(255,255,255,.92);
