@@ -594,10 +594,10 @@ img{max-width:100%; height:auto; border-radius:12px}
 }
 
 .about-grid{
-  display: grid;
-  grid-template-columns: 480px 1fr;
-  gap: 34px;
-  align-items: start;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
 }
 
 .about-photo{
@@ -628,6 +628,23 @@ img{max-width:100%; height:auto; border-radius:12px}
     grid-template-columns: 1fr;
   }
 }
+.section-about .container{
+  position: relative;
+  z-index: 2;
+}
+.section-about::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(
+    90deg,
+    rgba(10,10,24,0.85) 0%,
+    rgba(10,10,24,0.7) 50%,
+    rgba(10,10,24,0.2) 100%
+  );
+  z-index:1;
+}
+
 .site-footer{
   background: #2b275a;
   color: rgba(255,255,255,.92);
@@ -642,4 +659,10 @@ img{max-width:100%; height:auto; border-radius:12px}
 .site-footer a{
   color: rgba(255,255,255,.92);
   text-decoration: underline;
+}
+.section-about{
+  position: relative;
+  background: #0a0a18 url("globo.webp") no-repeat center right;
+  background-size: 60%;
+  padding: 100px 0;
 }
