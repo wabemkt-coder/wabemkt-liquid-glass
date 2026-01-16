@@ -653,12 +653,13 @@ img{max-width:100%; height:auto; border-radius:12px}
 @media (max-width: 900px){
   .about-card{
     grid-template-columns: 1fr;
-       .about-card-photo img{
-    height: 260px;
   }
 
+  .about-card-photo img{
+    height: 260px;
   }
 }
+
 
 .section-about .container{
   position: relative;
