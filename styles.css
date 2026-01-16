@@ -700,3 +700,11 @@ img{max-width:100%; height:auto; border-radius:12px}
   text-decoration: underline;
 }
 
+.section-about{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.site-footer{
+  margin-top: 0;
+}
