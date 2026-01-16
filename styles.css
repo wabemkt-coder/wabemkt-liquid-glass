@@ -590,9 +590,9 @@ img{max-width:100%; height:auto; border-radius:12px}
   text-align: center;
   font-size: clamp(32px, 4vw, 56px);
   margin: 0 0 28px;
-  color: #2b275a;
+  color: rgba(255,255,255,0.92);
+  text-shadow: 0 10px 30px rgba(0,0,0,0.55);
 }
-
 .about-grid{
   display:grid;
   grid-template-columns: 1fr 1fr;
