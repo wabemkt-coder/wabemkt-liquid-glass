@@ -574,3 +574,12 @@ img{max-width:100%; height:auto; border-radius:12px}
   background: rgba(255,255,255,.18);
   border: 1px solid rgba(255,255,255,.18);
 }
+.section-why .why-left h2{
+  color: #1f1b4a;
+  text-shadow: none;
+}
+
+.section-why .bullets{
+  color: rgba(31,27,74,0.85);
+  text-shadow: none;
+}
