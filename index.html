@@ -105,18 +105,38 @@
   </div>
 </section>
 
-
-<!-- WHY WORK WITH WABE -->
-<section id="why" class="section alt">
+<!-- WHY WORK WITH WABE + CONTACT -->
+<section id="why" class="section section-why">
   <div class="container">
-    <div class="glass card wide">
-      <h2>Why work with Wabe?</h2>
-      <ul class="bullets">
-        <li>Clear, ethical, human-centered AI consulting</li>
-        <li>Based in Austria, we speak your business language</li>
-        <li>Not tech for tech’s sake – real solutions for real teams</li>
-        <li>Training included, no vendor lock-in</li>
-      </ul>
+    <div class="why-grid glass why-card">
+      <div class="why-left">
+        <h2>Why work with Wabe?</h2>
+        <ul class="bullets">
+          <li>Clear, ethical, human-centered AI consulting</li>
+          <li>Based in Austria, we speak your business language</li>
+          <li>Not tech for tech’s sake, real solutions for real teams</li>
+          <li>Training included, no vendor lock-in</li>
+        </ul>
+      </div>
+
+      <div class="why-right">
+        <form action="https://formsubmit.co/wabemkt@gmail.com" method="POST" class="contact-form">
+          <h3>Get in Touch</h3>
+
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <input type="hidden" name="_redirect" value="https://www.wabemkt.com/thank-you">
+
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
     </div>
   </div>
 </section>
