@@ -559,3 +559,18 @@ img{max-width:100%; height:auto; border-radius:12px}
     padding: 28px;
   }
 }
+/* WHY section: melhorar leitura do texto */
+.section-why .why-left h2{
+  text-shadow: 0 2px 18px rgba(0,0,0,.35);
+}
+
+.section-why .bullets{
+  color: rgba(255,255,255,.96);
+  text-shadow: 0 2px 14px rgba(0,0,0,.35);
+}
+
+/* o vidro do card um pouco menos branco */
+.section-why .glass.card.why-card{
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.18);
+}
